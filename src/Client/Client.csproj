@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <PlatformTarget>AnyCPU</PlatformTarget>
         <AssemblyName>OmniSharp.Extensions.LanguageClient</AssemblyName>
         <RootNamespace>OmniSharp.Extensions.LanguageServer.Client</RootNamespace>
@@ -9,9 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\JsonRpc\JsonRpc.csproj" />
-        <ProjectReference Include="..\Protocol\Protocol.csproj" />
-        <ProjectReference Include="..\Shared\Shared.csproj" />
+        <ProjectReference Include="../JsonRpc/JsonRpc.csproj" />
+        <ProjectReference Include="../Protocol/Protocol.csproj" />
+        <ProjectReference Include="../Shared/Shared.csproj" />
         <PackageReference Include="Microsoft.Extensions.Configuration" />
     </ItemGroup>
     <ItemGroup>

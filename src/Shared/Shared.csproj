@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <PlatformTarget>AnyCPU</PlatformTarget>
         <AssemblyName>OmniSharp.Extensions.LanguageServer.Shared</AssemblyName>
         <RootNamespace>OmniSharp.Extensions.LanguageServer.Shared</RootNamespace>
         <PackageDescription>Shared classes for language server protocol</PackageDescription>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Protocol\Protocol.csproj" />
+        <ProjectReference Include="../Protocol/Protocol.csproj" />
     </ItemGroup>
     <ItemGroup>
         <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">

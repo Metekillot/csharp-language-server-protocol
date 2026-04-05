@@ -1,8 +1,0 @@
-﻿{
-    "includeText": true,
-    "documentSelector": [
-        {
-            "language": "csharp"
-        }
-    ]
-}

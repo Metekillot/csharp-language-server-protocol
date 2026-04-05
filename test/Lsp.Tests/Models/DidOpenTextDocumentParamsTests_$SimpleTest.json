@@ -1,8 +1,0 @@
-﻿{
-    "textDocument": {
-        "languageId": "csharp",
-        "version": 1,
-        "text": "content",
-        "uri": "file:///abc/def.cs"
-    }
-}

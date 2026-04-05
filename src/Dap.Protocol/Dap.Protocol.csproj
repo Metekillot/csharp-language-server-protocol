@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <PlatformTarget>AnyCPU</PlatformTarget>
         <AssemblyName>OmniSharp.Extensions.DebugAdapter</AssemblyName>
         <RootNamespace>OmniSharp.Extensions.DebugAdapter.Protocol</RootNamespace>
@@ -13,8 +13,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\JsonRpc\JsonRpc.csproj" />
-        <ProjectReference Include="..\JsonRpc.Generators\JsonRpc.Generators.csproj" IncludeAssets="analyzers" ExcludeAssets="compile;runtime;native" PrivateAssets="contentfiles;build;buildMultitargeting;buildTransitive" OutputItemType="Analyzer" />
+        <ProjectReference Include="../JsonRpc/JsonRpc.csproj" />
+        <ProjectReference Include="../JsonRpc.Generators/JsonRpc.Generators.csproj" IncludeAssets="analyzers" ExcludeAssets="compile;runtime;native" PrivateAssets="contentfiles;build;buildMultitargeting;buildTransitive" OutputItemType="Analyzer" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1;netstandard2.0;net6.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <PlatformTarget>AnyCPU</PlatformTarget>
         <AssemblyName>OmniSharp.Extensions.JsonRpc</AssemblyName>
         <RootNamespace>OmniSharp.Extensions.JsonRpc</RootNamespace>
@@ -17,7 +17,7 @@
         <PackageReference Include="Nerdbank.Streams" />
         <PackageReference Include="System.Threading.Channels" />
         <PackageReference Include="DryIoc.Internal" PrivateAssets="All" />
-        <ProjectReference Include="..\JsonRpc.Generators\JsonRpc.Generators.csproj" IncludeAssets="analyzers" ExcludeAssets="compile;runtime;native" PrivateAssets="contentfiles;build;buildMultitargeting;buildTransitive" OutputItemType="Analyzer" />
+        <ProjectReference Include="../JsonRpc.Generators/JsonRpc.Generators.csproj" IncludeAssets="analyzers" ExcludeAssets="compile;runtime;native" PrivateAssets="contentfiles;build;buildMultitargeting;buildTransitive" OutputItemType="Analyzer" />
     </ItemGroup>
 
     <ItemGroup>
