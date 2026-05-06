@@ -5,7 +5,7 @@
         <Authors>David Driscoll</Authors>
         <LangVersion>preview</LangVersion>
         <Features>strict</Features>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
         <SignAssembly>true</SignAssembly>
         <DelaySign>false</DelaySign>
         <PackageIcon>images/packageicon.png</PackageIcon>
@@ -14,10 +14,14 @@
         <PackageTags>lsp;language server;language server protocol;language client;language server client</PackageTags>
         <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)\lsp.snk</AssemblyOriginatorKeyFile>
         <!-- See: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview -->
-        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+        <AnalysisMode>None</AnalysisMode>
         <LangVersion>preview</LangVersion>
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <EnableNETAnalyzers>false</EnableNETAnalyzers>
+        <RunAnalyzers>false</RunAnalyzers>
+        <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+        <WarningLevel>0</WarningLevel>
+        <NoWarn>$(NoWarn);CS;CA;NU;IDE</NoWarn>
         <NukeTelemetryVersion>1</NukeTelemetryVersion>
         <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
         <ImplicitUsings>enable</ImplicitUsings>

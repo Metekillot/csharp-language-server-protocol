@@ -1,0 +1,108 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/.config/">
+    <File Path=".appveyor.yml" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="build.ps1" />
+    <File Path="build.sh" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+    <File Path="nuget.config" />
+  </Folder>
+  <Folder Name="/config/">
+    <File Path=".appveyor.yml" />
+    <File Path=".azure-pipelines.yml" />
+    <File Path=".codecov.yml" />
+    <File Path=".config/dotnet-tools.json" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path=".lintstagedrc.js" />
+    <File Path=".prettierignore" />
+    <File Path=".prettierrc" />
+    <File Path=".travis.yml" />
+    <File Path="azure-pipelines.nuke.yml" />
+    <File Path="build.cmd" />
+    <File Path="build.ps1" />
+    <File Path="build.sh" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Packages.supports.props" />
+    <File Path="GitReleaseManager.yaml" />
+    <File Path="GitVersion.yml" />
+    <File Path="LICENSE" />
+    <File Path="NuGet.config" />
+    <File Path="package.json" />
+    <File Path="README.md" />
+    <Project Path=".build/.build.csproj">
+      <Build Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/config/.github/">
+    <File Path=".github/labels.yml" />
+    <File Path=".github/renovate.json" />
+  </Folder>
+  <Folder Name="/config/.github/workflows/">
+    <File Path=".github/workflows/ci-ignore.yml" />
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/close-milestone.yml" />
+    <File Path=".github/workflows/dependabot-merge.yml" />
+    <File Path=".github/workflows/draft-release.yml" />
+    <File Path=".github/workflows/publish-nuget.yml" />
+    <File Path=".github/workflows/sync-labels.yml" />
+    <File Path=".github/workflows/update-milestone.yml" />
+  </Folder>
+  <Folder Name="/config/.husky/">
+    <File Path=".husky/pre-commit" />
+  </Folder>
+  <Folder Name="/config/.vscode/">
+    <File Path=".vscode/csharp.code-snippets" />
+    <File Path=".vscode/launch.json" />
+    <File Path=".vscode/settings.json" />
+    <File Path=".vscode/tasks.json" />
+    <File Path=".vscode/tasks.json.old" />
+  </Folder>
+  <Folder Name="/sample/">
+    <Project Path="sample/SampleServer/SampleServer.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <File Path="src/.editorconfig" />
+    <File Path="src/Directory.Build.props" />
+    <File Path="src/Directory.Build.targets" />
+    <Project Path="src/Client/Client.csproj" />
+    <Project Path="src/Dap.Client/Dap.Client.csproj" />
+    <Project Path="src/Dap.Protocol.Proposals/Dap.Protocol.Proposals.csproj" />
+    <Project Path="src/Dap.Protocol/Dap.Protocol.csproj" />
+    <Project Path="src/Dap.Server/Dap.Server.csproj" />
+    <Project Path="src/Dap.Shared/Dap.Shared.csproj" />
+    <Project Path="src/Dap.Testing/Dap.Testing.csproj" />
+    <Project Path="src/JsonRpc.Generators/JsonRpc.Generators.csproj" />
+    <Project Path="src/JsonRpc.Testing/JsonRpc.Testing.csproj" />
+    <Project Path="src/JsonRpc/JsonRpc.csproj" />
+    <Project Path="src/Protocol.Proposals/Protocol.Proposals.csproj" />
+    <Project Path="src/Protocol/Protocol.csproj" />
+    <Project Path="src/Server/Server.csproj" />
+    <Project Path="src/Shared/Shared.csproj" />
+    <Project Path="src/Testing/Testing.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <File Path="test/.editorconfig" />
+    <File Path="test/Directory.Build.props" />
+    <File Path="test/Directory.Build.targets" />
+    <Project Path="test/Client.Tests/Client.Tests.csproj" />
+    <Project Path="test/Dap.Tests/Dap.Tests.csproj" />
+    <Project Path="test/Generation.Tests/Generation.Tests.csproj" />
+    <Project Path="test/JsonRpc.Tests/JsonRpc.Tests.csproj" />
+    <Project Path="test/Lsp.Integration.Tests/Lsp.Integration.Tests.csproj" />
+    <Project Path="test/Lsp.Tests/Lsp.Tests.csproj" />
+    <Project Path="test/TestingUtils/TestingUtils.csproj" />
+  </Folder>
+</Solution>
